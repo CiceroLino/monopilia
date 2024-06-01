@@ -3,6 +3,7 @@ import { MoneyCard } from "./components/Card/MoneyCard";
 import { PropertyCard } from "./components/Card/PropertyCard";
 
 export default function App() {
+
   return (
     <div className="p-4 flex gap-1">
       <ActionCard
@@ -25,3 +26,4 @@ export default function App() {
     </div>
   )
 }
+
