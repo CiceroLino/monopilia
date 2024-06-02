@@ -2,7 +2,7 @@ import { BaseCard } from "./BaseCard";
 
 interface IPropertyCardProps {
   name: string;
-  value: string;
+  value: string | number;
   rentValues: number[];
 }
 
