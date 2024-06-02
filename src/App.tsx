@@ -26,8 +26,8 @@ export default function App() {
       />
 
       <DoublePropertyCard
-        name={'O Cais'}
-        value={4}
+        name={'Travessa Connecticut'}
+        value={5}
         rentValues={[3, 8]}
       />
     </div>

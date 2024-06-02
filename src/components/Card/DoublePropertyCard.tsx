@@ -10,7 +10,7 @@ export function DoublePropertyCard({ name, value, rentValues }: IDoublePropertyC
   return (
     <BaseCard value={value}>
       <div className="w-full h-full flex flex-col justify-between">
-        <div className="h-1/6 w-full bg-blue-700 flex items-center justify-center text-white">{name}</div>
+        <div className="h-1/6 w-full bg-green-700 flex items-center justify-center text-white">{name}</div>
 
         <div className="h-full w-full px-8 mt-8 flex flex-col items-center">
           <div className="w-2/3 flex justify-between">
@@ -30,7 +30,7 @@ export function DoublePropertyCard({ name, value, rentValues }: IDoublePropertyC
           <small className="italic">Grupo Completo</small>
         </div>
 
-        <div className="h-1/6 w-full bg-blue-700 flex items-center justify-center text-white">{name}</div>
+        <div className="h-1/6 w-full bg-orange-700 flex items-center justify-center text-white">{name}</div>
       </div>
     </BaseCard>
   );
