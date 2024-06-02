@@ -1,4 +1,4 @@
-import { BaseCard } from "./BaseCard";
+import { BaseCard } from "../BaseCard/BaseCard";
 
 interface IMoneyCardProps {
   image: string;

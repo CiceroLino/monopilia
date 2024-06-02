@@ -1,7 +1,7 @@
-import { ActionCard } from "./components/Card/ActionCard";
-import { DoublePropertyCard } from "./components/Card/DoublePropertyCard";
-import { MoneyCard } from "./components/Card/MoneyCard";
-import { PropertyCard } from "./components/Card/PropertyCard";
+import { ActionCard } from "./components/ActionCard/ActionCard";
+import { DoublePropertyCard } from "./components/DoublePropertyCard/DoublePropertyCard";
+import { MoneyCard } from "./components/MoneyCard/MoneyCard";
+import { PropertyCard } from "./components/PropertyCard/PropertyCard";
 
 export default function App() {
 
@@ -26,7 +26,8 @@ export default function App() {
       />
 
       <DoublePropertyCard
-        name={'Travessa Connecticut'}
+        name={'Coringa'}
+        description={'Escolha uma cor.'}
         value={5}
         rentValues={[3, 8]}
       />
