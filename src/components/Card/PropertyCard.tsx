@@ -1,7 +1,12 @@
-import React from "react";
 import { BaseCard } from "./BaseCard";
 
-export function PropertyCard({ name, value, rentValues }) {
+interface IPropertyCardProps {
+  name: string;
+  value: string;
+  rentValues: number[];
+}
+
+export function PropertyCard({ name, value, rentValues }: IPropertyCardProps) {
   return (
     <BaseCard value={value}>
       <div className="w-full h-full flex flex-col justify-between">

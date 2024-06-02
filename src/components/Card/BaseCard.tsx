@@ -1,6 +1,11 @@
-import React from "react";
+import { ReactNode } from "react"
 
-export function BaseCard({ children, value }) {
+interface IBaseCardProps {
+  children: ReactNode;
+  value: string | number;
+}
+
+export function BaseCard({ children, value }: IBaseCardProps) {
   return (
     <div className="w-[220px] h-[350px] bg-rose-50 rounded flex flex-col justify-between">
       <div className="opacity-60 text-center border-b border-black">{value}M</div>

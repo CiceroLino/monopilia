@@ -1,7 +1,11 @@
-import React from "react";
 import { BaseCard } from "./BaseCard";
 
-export function MoneyCard({ image, value }) {
+interface IMoneyCardProps {
+  image: string;
+  value: string | number;
+}
+
+export function MoneyCard({ image, value }: IMoneyCardProps) {
   return (
     <BaseCard value={value}>
       <div className="w-full h-full flex flex-col justify-center p-2">

@@ -1,7 +1,12 @@
-import React from "react";
 import { BaseCard } from "./BaseCard";
 
-export function PropertyCard({ name, value, rentValues }) {
+interface IDoublePropertyCardProps {
+  name: string;
+  value: number | string;
+  rentValues: number[];
+}
+
+export function DoublePropertyCard({ name, value, rentValues }: IDoublePropertyCardProps) {
   return (
     <BaseCard value={value}>
       <div className="w-full h-full flex flex-col justify-between">

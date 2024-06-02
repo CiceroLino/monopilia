@@ -1,7 +1,13 @@
-import React from "react";
 import { BaseCard } from "./BaseCard";
 
-export function ActionCard({ image, name, description, value }) {
+interface IActionCardProps {
+  image: string;
+  name: string;
+  description: string;
+  value: string | number;
+}
+
+export function ActionCard({ image, name, description, value }: IActionCardProps) {
   return (
     <BaseCard value={value}>
       <div className="w-full h-full flex flex-col p-2">

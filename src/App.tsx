@@ -1,4 +1,5 @@
 import { ActionCard } from "./components/Card/ActionCard";
+import { DoublePropertyCard } from "./components/Card/DoublePropertyCard";
 import { MoneyCard } from "./components/Card/MoneyCard";
 import { PropertyCard } from "./components/Card/PropertyCard";
 
@@ -19,6 +20,12 @@ export default function App() {
       />
 
       <PropertyCard
+        name={'O Cais'}
+        value={4}
+        rentValues={[3, 8]}
+      />
+
+      <DoublePropertyCard
         name={'O Cais'}
         value={4}
         rentValues={[3, 8]}
