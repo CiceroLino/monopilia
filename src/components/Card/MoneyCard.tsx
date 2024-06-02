@@ -1,3 +1,4 @@
+import React from "react";
 import { BaseCard } from "./BaseCard";
 
 export function MoneyCard({ image, value }) {

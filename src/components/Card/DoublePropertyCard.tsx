@@ -1,6 +1,7 @@
+import React from "react";
 import { BaseCard } from "./BaseCard";
 
-export function PropertyCard({ image, name, value, rentValues }) {
+export function PropertyCard({ name, value, rentValues }) {
   return (
     <BaseCard value={value}>
       <div className="w-full h-full flex flex-col justify-between">

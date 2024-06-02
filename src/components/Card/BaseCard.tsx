@@ -1,3 +1,5 @@
+import React from "react";
+
 export function BaseCard({ children, value }) {
   return (
     <div className="w-[220px] h-[350px] bg-rose-50 rounded flex flex-col justify-between">
